@@ -6,7 +6,6 @@ body{
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -81,11 +80,7 @@ nav img {
   justify-content: space-between;
   max-width: 1140px;
   margin: 0 auto;
-  align-items: center;
-}
-.action-right{
   padding:116px 0px ;
-  
 }
 .action-right img{
   border-radius: 30px;
