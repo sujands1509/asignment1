@@ -1,5 +1,7 @@
-body{
-  margin: 0 auto;
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 /* font */
   
@@ -84,4 +86,25 @@ nav img {
 }
 .action-right img{
   border-radius: 30px;
+}
+
+/* action style finish */
+/* productive user section style start */
+.productive-user{
+  max-width: 1140px;
+  background-color: rgba(78, 71, 255, 0.1);
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 50px 20px;
+}
+.productive-user-count{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.puc-number{
+  font-size: 80px;
+  font-weight: 800;
+  color: #4E47FF;
+  padding-bottom: -10px;
 }
